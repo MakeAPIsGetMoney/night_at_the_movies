@@ -1,0 +1,100 @@
+{
+  "success": true,
+  "result": {
+    "id": 88258,
+    "title": "This Is Spinal Tap",
+    "poster": "http://ia.media-imdb.com/images/M/MV5BMTQ2MTIzMzg5Nl5BMl5BanBnXkFtZTgwOTc5NDI1MDE@._V1_UY1200_CR85,0,630,1200_AL_.jpg",
+    "year": 1984,
+    "storyline": "",
+    "rating": {
+      "given": 8,
+      "max": 11
+    },
+    "director": "Rob Reiner",
+    "writer": [],
+    "genre": [
+      "Comedy",
+      "Music"
+    ],
+    "keywords": [
+      "heavy metal",
+      "cult film",
+      "mockumentary",
+      "washed out",
+      "concert tour"
+    ],
+    "reviews": {
+      "user": null,
+      "critic": null
+    },
+    "metascore": {
+      "given": null,
+      "max": null
+    },
+    "language": "English",
+    "runtime": "PT82M",
+    "releaseDate": "Fri Mar 02 1984",
+    "cast": [
+      {
+        "actor": "Rob Reiner",
+        "role": "Marty DiBergi"
+      },
+      {
+        "actor": "Kimberly Stringer",
+        "role": "Heavy Metal Fan"
+      },
+      {
+        "actor": "Chazz Dominguez",
+        "role": "Heavy Metal Fan"
+      },
+      {
+        "actor": "Shari Hall",
+        "role": "Heavy Metal Fan"
+      },
+      {
+        "actor": "R.J. Parnell",
+        "role": "Mick Shrimpton"
+      },
+      {
+        "actor": "David Kaff",
+        "role": "Viv Savage"
+      },
+      {
+        "actor": "Tony Hendra",
+        "role": "Ian Faith"
+      },
+      {
+        "actor": "Michael McKean",
+        "role": "David St. Hubbins"
+      },
+      {
+        "actor": "Christopher Guest",
+        "role": "Nigel Tufnel"
+      },
+      {
+        "actor": "Harry Shearer",
+        "role": "Derek Smalls"
+      },
+      {
+        "actor": "Bruno Kirby",
+        "role": "Tommy Pischedda"
+      },
+      {
+        "actor": "Jean Cromie",
+        "role": "Ethereal Fan"
+      },
+      {
+        "actor": "Patrick Maher",
+        "role": "New York M.C."
+      },
+      {
+        "actor": "Ed Begley Jr.",
+        "role": "John 'Stumpy' Pepys"
+      },
+      {
+        "actor": "Danny Kortchmar",
+        "role": "Ronnie Pudding"
+      }
+    ]
+  }
+}
