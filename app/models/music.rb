@@ -14,21 +14,22 @@ class Music
   def most_popular
     sorted = full_list.sort_by {|t| t["popularity"]}
     sorted.reverse!
-    @most_popular = sorted[0]
+    sorted[0]
   end
 
-  def popular_track_name
+  def popular_track
     most_popular["name"]
   end
 
-  def popular_artist_name
-    artists = most_popular["artist"]
-    names = artists.each {|a| a["name"]}
+  def popular_artist
+    artists = most_popular["artists"]
+    names = []
+    artists.each {|a| names << a["name"] }
+    names
   end
 
+  def popular_album
+    most_popular["album"]["name"]
+  end
 
-  # def track
-  #   tracks = @track_listing.map do {|t| t["name"]}
-  # end
-  #
 end

@@ -22,13 +22,17 @@ class VoteTest < ActiveSupport::TestCase
 
   test "can get most popular track" do
     m = Music.new
-    assert_equal "7/11", m.popular_track_name
+    assert_equal "7/11", m.popular_track
   end
 
   test "can get most popular artist" do
     m = Music.new
-    assert_equal "Beyoncé", m.popular_artist_name
+    assert_equal ["Beyoncé"], m.popular_artist
+  end
 
+  test "can get most popular album" do
+    m = Music.new
+    assert_equal "BEYONCÉ [Platinum Edition]", m.popular_album
   end
 
 end
