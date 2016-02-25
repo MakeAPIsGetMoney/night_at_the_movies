@@ -4,7 +4,7 @@ class IMDB
   def initialize(movie)
     response = Unirest.post("https://imdb.p.mashape.com/movie",
       headers:{
-        "X-Mashape-Key" => "tXp52AcbQimsh2nLBAlSKLGvtsnAp1somK0jsnyTRFn0fSAHGh",
+        "X-Mashape-Key" => "#{ENV["IMDB_KEY"]}",
         "Content-Type" => "application/x-www-form-urlencoded",
         "Accept" => "application/json"
       },
