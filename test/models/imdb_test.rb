@@ -37,4 +37,9 @@ class IMDBTest < ActiveSupport::TestCase
         "Danny Kortchmar"],
         movie.get_actor_list
   end
+
+  test "get actors role" do
+    movie = IMDB.new
+    assert_equal ["Marty DiBergi"], movie.get_actor_role("Rob Reiner")
+  end
 end

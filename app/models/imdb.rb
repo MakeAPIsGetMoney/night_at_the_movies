@@ -27,7 +27,10 @@ class IMDB
     array
   end
 
-  def get_actor_role
-    
+  def get_actor_role(actor)
+    roles = []
+    temp = @actors.select {|a| a["actor"] == actor}
+    temp.each {|t| roles << t["role"]}
+    roles
   end
 end
