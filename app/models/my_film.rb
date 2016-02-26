@@ -1,5 +1,6 @@
-class MyAPIFilm
+class MyFilm
   attr_reader :success, :title, :year, :directors, :writers, :actors, :runtime
+
   def initialize(movie)
     response = HTTParty.get("http://api.myapifilms.com/imdb/idIMDB?title=#{movie}&actors=1&token=#{ENV["MYAPIFILMS_KEY"]}")
     @success = !(response["data"]["movies"].empty?)

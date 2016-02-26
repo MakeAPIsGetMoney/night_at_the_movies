@@ -3,10 +3,12 @@ json.results do
   json.movie do
     json.title @movie.title
     json.year @movie.year
-    json.director @movie.director
+    json.directors @movie.directors do |d|
+      json.name d["name"]
+    end
     json.actors @movie.actors do |a|
-      json.name a["actor"]
-      json.role a["role"]
+      json.name a["actorName"]
+      json.role a["character"]
     end
   end
   json.song do
