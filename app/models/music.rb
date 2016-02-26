@@ -1,7 +1,7 @@
 class Music
   def initialize(genre: nil, year: nil)
-    params = "genre:#{genre} year:#{year}"
-    response = HTTParty.get("https://api.spotify.com/v1/search?q=#{params}&type=track")
+    query = "genre:#{genre} year:#{year}"
+    response = HTTParty.get("https://api.spotify.com/v1/search?q=#{query}&type=track")
     if response["tracks"]["items"].empty?
       @response = HTTParty.get("https://api.spotify.com/v1/search?q=year:#{year}&type=track")
     else

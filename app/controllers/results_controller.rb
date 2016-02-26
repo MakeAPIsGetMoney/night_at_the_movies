@@ -1,9 +1,8 @@
 class ResultsController < ApplicationController
   def show
-    #params should be passed in like so: genre="pop"&year=2016
-    movie = IMDB.new(movie: params[:movie])
-    song = Music.new(genre: params[:genre], year: movie.year)
-    render json: song
+    #params should be passed in like so: year=2016&genre="pop"
+    @movie = IMDB.new(params[:movie])
+    @song = Music.new(genre: params[:genre], year: @movie.year)
   end
 
   def index
