@@ -15,7 +15,6 @@ class Music
       track_name: popular_track,
       album_name: popular_album
     }
-
   end
 
   def full_list
