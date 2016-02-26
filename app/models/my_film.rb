@@ -1,5 +1,5 @@
 class MyFilm
-  attr_reader :success, :title, :year, :directors, :writers, :actors, :runtime
+  attr_reader :success, :title, :year, :directors, :writers, :actors, :runtime, :urlPoster
 
   def initialize(movie)
     response = HTTParty.get("http://api.myapifilms.com/imdb/idIMDB?title=#{movie}&actors=1&token=#{ENV["MYAPIFILMS_KEY"]}")
@@ -11,6 +11,7 @@ class MyFilm
       @writers = response["data"]["movies"][0]["writers"]
       @actors = response["data"]["movies"][0]["actors"]
       @runtime = response["data"]["movies"][0]["runtime"][0]
+      @poster = response["data"]["movies"][0]["urlPoster"]
     end
   end
 
