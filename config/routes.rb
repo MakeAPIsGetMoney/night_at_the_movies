@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   get 'results/index'
 
   get '/api/v1/search/:movie/:genre' => 'results#show'
+  get '/api/v1/search' => 'results#show'
+  get '/api/v1/search/:movie' => 'results#show'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
