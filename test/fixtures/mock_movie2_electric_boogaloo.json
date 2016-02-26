@@ -1,0 +1,195 @@
+{
+"data": {
+"movies": [
+{
+"title": "This Is Spinal Tap",
+"originalTitle": "",
+"year": "1984",
+"releaseDate": "19840302",
+"directors": [
+{
+"name": "Rob Reiner",
+"nameId": "nm0001661"
+}
+],
+"writers": [
+{
+"name": "Christopher Guest",
+"nameId": "nm0001302"
+},
+{
+"name": "Michael McKean",
+"nameId": "nm0571106"
+}
+],
+"runtime": [
+"82 min"
+],
+"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTQ2MTIzMzg5Nl5BMl5BanBnXkFtZTgwOTc5NDI1MDE@._V1_UX182_CR0,0,182,268_AL_.jpg",
+"countries": [
+"USA"
+],
+"languages": [
+"English"
+],
+"genres": [
+"Comedy",
+"Music"
+],
+"plot": "In 1982 legendary British heavy metal band Spinal Tap attempt an American comeback tour accompanied by a fan who is also a film-maker. The resulting documentary, interspersed with powerful performances of Tap's pivotal music and profound lyrics, candidly follows a rock group heading towards crisis, culminating in the infamous affair of the eighteen-inch-high Stonehenge stage prop.",
+"simplePlot": "Spinal Tap, one of England's loudest bands, is chronicled by film director Marty DeBergi on what proves to be a fateful tour.",
+"actors": [
+{
+"actorName": "Rob Reiner",
+"urlProfile": "http://www.imdb.com/name/nm0001661",
+"urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTc2Njg1MDM2OV5BMl5BanBnXkFtZTcwMTE4NDk2Mw@@._V1_UY44_CR0,0,32,44_AL_.jpg",
+"actorId": "nm0001661",
+"character": "Marty DiBergi",
+"urlCharacter": "http://www.imdb.com/character/ch0008526",
+"main": true
+},
+{
+"actorName": "Kimberly Stringer",
+"urlProfile": "http://www.imdb.com/name/nm0834571",
+"urlPhoto": "",
+"actorId": "nm0834571",
+"character": "Heavy Metal Fan",
+"urlCharacter": "http://www.imdb.com",
+"main": true
+},
+{
+"actorName": "Chazz Dominguez",
+"urlProfile": "http://www.imdb.com/name/nm0231551",
+"urlPhoto": "",
+"actorId": "nm0231551",
+"character": "Heavy Metal Fan",
+"urlCharacter": "http://www.imdb.com",
+"main": true
+},
+{
+"actorName": "Shari Hall",
+"urlProfile": "http://www.imdb.com/name/nm0356098",
+"urlPhoto": "",
+"actorId": "nm0356098",
+"character": "Heavy Metal Fan",
+"urlCharacter": "http://www.imdb.com",
+"main": true
+},
+{
+"actorName": "R.J. Parnell",
+"urlProfile": "http://www.imdb.com/name/nm0663198",
+"urlPhoto": "",
+"actorId": "nm0663198",
+"character": "Mick Shrimpton",
+"urlCharacter": "http://www.imdb.com/character/ch0187495",
+"main": true
+},
+{
+"actorName": "David Kaff",
+"urlProfile": "http://www.imdb.com/name/nm6662796",
+"urlPhoto": "",
+"actorId": "nm6662796",
+"character": "Viv Savage",
+"urlCharacter": "http://www.imdb.com/character/ch0008532",
+"main": true
+},
+{
+"actorName": "Tony Hendra",
+"urlProfile": "http://www.imdb.com/name/nm0376676",
+"urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTkwMTA0MTIwM15BMl5BanBnXkFtZTcwMDEwNzAxOA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+"actorId": "nm0376676",
+"character": "Ian Faith",
+"urlCharacter": "http://www.imdb.com/character/ch0008531",
+"main": true
+},
+{
+"actorName": "Michael McKean",
+"urlProfile": "http://www.imdb.com/name/nm0571106",
+"urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTcwMzEwMDI4MF5BMl5BanBnXkFtZTYwMDY3NDA0._V1_UX32_CR0,0,32,44_AL_.jpg",
+"actorId": "nm0571106",
+"character": "David St. Hubbins",
+"urlCharacter": "http://www.imdb.com/character/ch0008527",
+"main": true
+},
+{
+"actorName": "Christopher Guest",
+"urlProfile": "http://www.imdb.com/name/nm0001302",
+"urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjE0NzU2MjMzMV5BMl5BanBnXkFtZTYwMzQwMDMz._V1_UX32_CR0,0,32,44_AL_.jpg",
+"actorId": "nm0001302",
+"character": "Nigel Tufnel",
+"urlCharacter": "http://www.imdb.com/character/ch0008522",
+"main": true
+},
+{
+"actorName": "Harry Shearer",
+"urlProfile": "http://www.imdb.com/name/nm0733427",
+"urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTIxNDg4MzA5OF5BMl5BanBnXkFtZTYwOTM3MDc1._V1_UX32_CR0,0,32,44_AL_.jpg",
+"actorId": "nm0733427",
+"character": "Derek Smalls",
+"urlCharacter": "http://www.imdb.com/character/ch0008524",
+"main": true
+},
+{
+"actorName": "Bruno Kirby",
+"urlProfile": "http://www.imdb.com/name/nm0456124",
+"urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMTI4NTQ4NTU0OV5BMl5BanBnXkFtZTcwNTA2MDAxMw@@._V1_UY44_CR2,0,32,44_AL_.jpg",
+"actorId": "nm0456124",
+"character": "Tommy Pischedda",
+"urlCharacter": "http://www.imdb.com/character/ch0453859",
+"main": true
+},
+{
+"actorName": "Jean Cromie",
+"urlProfile": "http://www.imdb.com/name/nm0188622",
+"urlPhoto": "",
+"actorId": "nm0188622",
+"character": "Ethereal Fan",
+"urlCharacter": "http://www.imdb.com",
+"main": true
+},
+{
+"actorName": "Patrick Maher",
+"urlProfile": "http://www.imdb.com/name/nm0536872",
+"urlPhoto": "",
+"actorId": "nm0536872",
+"character": "New York M.C.",
+"urlCharacter": "http://www.imdb.com",
+"main": true
+},
+{
+"actorName": "Ed Begley Jr.",
+"urlProfile": "http://www.imdb.com/name/nm0000893",
+"urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjA1ODI0NDgxN15BMl5BanBnXkFtZTYwODU1MDcy._V1_UX32_CR0,0,32,44_AL_.jpg",
+"actorId": "nm0000893",
+"character": "John 'Stumpy' Pepys",
+"urlCharacter": "http://www.imdb.com/character/ch0187496",
+"main": true
+},
+{
+"actorName": "Danny Kortchmar",
+"urlProfile": "http://www.imdb.com/name/nm0466733",
+"urlPhoto": "http://ia.media-imdb.com/images/M/MV5BMjAyMTU3OTMyN15BMl5BanBnXkFtZTcwODI4MzczNA@@._V1_UX32_CR0,0,32,44_AL_.jpg",
+"actorId": "nm0466733",
+"character": "Ronnie Pudding",
+"urlCharacter": "http://www.imdb.com/character/ch0459299",
+"main": true
+}
+],
+"idIMDB": "tt0088258",
+"urlIMDB": "http://www.imdb.com/title/tt0088258",
+"rating": "8.0",
+"metascore": "85",
+"filmingLocations": [
+"California",
+"USA"
+],
+"rated": "R",
+"votes": "102,603",
+"type": "Movie"
+}
+]
+},
+"about": {
+"version": "2.15.1"
+}
+}
