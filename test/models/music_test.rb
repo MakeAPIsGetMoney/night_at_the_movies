@@ -3,13 +3,13 @@ require "#{Rails.root}/app/models/music.rb"
 
 class Music
  def initialize
-   @music = JSON.parse(File.read("./test/fixtures/mock_music.json"))
+   @response = JSON.parse(File.read("./test/fixtures/mock_music.json"))
  end
 
 end
 
 
-class VoteTest < ActiveSupport::TestCase
+class MusicTest < ActiveSupport::TestCase
   test "Can get API results" do
    m = Music.new
    assert m

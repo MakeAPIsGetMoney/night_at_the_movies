@@ -1,7 +1,12 @@
 class Music
   def initialize(genre: nil, year: nil)
     params = "genre:#{genre} year:#{year}"
-    @music = HTTParty.get("https://api.spotify.com/v1/search?q=#{params}&type=track")
+    response = HTTParty.get("https://api.spotify.com/v1/search?q=#{params}&type=track")
+    if response["tracks"]["items"].empty?
+      @response = HTTParty.get("https://api.spotify.com/v1/search?q=year:#{year}&type=track")
+    else
+      @response = response
+    end
   end
 
   def as_json(options)
@@ -14,7 +19,7 @@ class Music
   end
 
   def full_list
-    @music["tracks"]["items"]
+    @response["tracks"]["items"]
   end
 
   def tracks
@@ -23,8 +28,7 @@ class Music
 
   def most_popular
     sorted = full_list.sort_by {|t| t["popularity"]}
-    sorted.reverse!
-    sorted[0]
+    sorted[-1]
   end
 
   def popular_track
