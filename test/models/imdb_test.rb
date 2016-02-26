@@ -2,7 +2,7 @@ require 'test_helper'
 require "#{Rails.root}/app/models/imdb.rb"
 
 class IMDB
-  def initialize
+  def initialize(movie)
     response = JSON.parse(File.read('./test/fixtures/mock_movie.json'))
     @success = response["success"]
     @title = response["result"]["title"]
@@ -17,12 +17,12 @@ end
 
 class IMDBTest < ActiveSupport::TestCase
   test "retrieve data from imdb api" do
-    movie = IMDB.new
+    movie = IMDB.new("This is Spinal Tap")
     assert movie.success
   end
 
   test "get title year director and cast" do
-    movie = IMDB.new
+    movie = IMDB.new("This is Spinal Tap")
     assert_equal "This Is Spinal Tap", movie.title
     assert_equal 1984, movie.year
     assert_equal "Rob Reiner", movie.director
@@ -30,7 +30,7 @@ class IMDBTest < ActiveSupport::TestCase
   end
 
   test "get list of actors" do
-    movie = IMDB.new
+    movie = IMDB.new("This is Spinal Tap")
     assert_equal ["Rob Reiner", "Kimberly Stringer", "Chazz Dominguez", "Shari Hall",
         "R.J. Parnell", "David Kaff", "Tony Hendra", "Michael McKean", "Christopher Guest",
         "Harry Shearer", "Bruno Kirby", "Jean Cromie", "Patrick Maher", "Ed Begley Jr.",
@@ -39,7 +39,7 @@ class IMDBTest < ActiveSupport::TestCase
   end
 
   test "get actors role" do
-    movie = IMDB.new
+    movie = IMDB.new("This is Spinal Tap")
     assert_equal ["Marty DiBergi"], movie.get_actor_role("Rob Reiner")
   end
 end
