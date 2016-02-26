@@ -1,5 +1,5 @@
 require 'test_helper'
-require "#{Rails.root}/app/models/myapifilm.rb"
+require "#{Rails.root}/app/models/my_film.rb"
 
 class MyFilm
   def initialize(movie)
