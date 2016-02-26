@@ -2,3 +2,4 @@
 <p>The movie you searched for was <em><%=@movie.title%></em>.</p>
 <p>It came out in <strong><%=@movie.year%></strong>.</p>
 <p>According to Spotify, the most popular song in that year was <em><%=@song.popular_track%></em> by <%=@song.popular_artist.join(", ").html_safe %>. It appeared on the <em><%=@song.popular_album%></em> album. </p>
+<p><img src="<%=@song.album_cover%>"> </p>

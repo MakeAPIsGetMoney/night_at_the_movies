@@ -9,13 +9,6 @@ class Music
     end
   end
 
-  def as_json(options)
-    {
-      artists: popular_artist,
-      track_name: popular_track,
-      album_name: popular_album
-    }
-  end
 
   def full_list
     @response["tracks"]["items"]
@@ -43,6 +36,11 @@ class Music
 
   def popular_album
     most_popular["album"]["name"]
+  end
+
+  def album_cover
+    most_popular["album"]["images"][0]["url"]
+
   end
 
 end
