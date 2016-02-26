@@ -28,7 +28,8 @@ Sample request: `/api/v1/search/this%20is%20spinal%20tap/pop.json`
 
 Sample results:
 
-```{
+```
+{
 "success": true,
 "results": {
 "movie": {
